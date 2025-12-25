@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Slider Section */
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+/* Slider image */
+#slide{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Buttons container */
+.slider-btns{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 30px;
+}
+
+/* Common button style */
+.slider-btns button{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.slider-btns button:hover{
+    background: rgba(255, 255, 255, 0.9);
+    color: #111;
+    transform: scale(1.15);
+}
+
+/* Left button */
+#prev{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+}
+
+/* Right button */
+#next{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+}
+.ri-arrow-left-s-line{
+    color: black;
+    font-size: 20px;
+}
+.ri-arrow-right-s-line{
+    color: black;
+    font-size: 20px;
+}
+/* responsive  */
+@media (max-width: 992px){
+    section{
+        height: 70vh;
+    }
+}
+/* Mobile */
+@media (max-width: 576px){
+    section{
+        height: 50vh;
+    }
+
+    .slider-btns button{
+        width: 42px;
+        height: 42px;
+        font-size: 16px;
+    }
+}
+
+/* Responsive  */
+@media (max-width: 768px){
+    .slider-btns button{
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+</style>
+</head>
+<body>
+    <section>
+        <!-- image container  -->
+        <div class="container">
+            <img src="./images/img1.avif" alt="slider" id="slide">
+        </div>
+        <!-- slider buttons  -->
+        <div class="slider-btns">
+            <button onclick="prevClick()" id="prev"><i class="ri-arrow-left-s-line"></i></button>
+            <button onclick="nextClick()" id="next"><i class="ri-arrow-right-s-line"></i></i></button>
+        </div>
+    </section>
+    <!-- link script  -->
+    <script src="script.js"></script> 
+</body>
+</html>
