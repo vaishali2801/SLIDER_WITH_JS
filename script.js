@@ -46,4 +46,4 @@ setInterval(
     }
     // Update the image source
     img.src = images[index];
-},10000)
+},3000)
