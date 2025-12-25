@@ -10,7 +10,10 @@ const images = [
     "./images/img7.jpg",
     "./images/img8.avif",
     "./images/img9.avif",
-    "./images/img10.jpg"
+    "./images/img10.jpg",
+    "./images/img11.jpg",
+    "./images/img12.jpg",
+    "./images/img13.jpg"
 ]
 // Variable to track the current image index
 let index = 0;
