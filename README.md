@@ -91,3 +91,9 @@ This project helped me connect logic and UI together, making JavaScript more pra
 It is a step toward building real-world frontend components used in modern websites and applications.
 
 This slider is not just a project — it’s my hands-on practice ground to experiment, debug, and grow as a JavaScript developer.
+<img width="1280" height="678" alt="Screenshot 2025-12-25 at 12 15 37 PM" src="https://github.com/user-attachments/assets/c0c8d2ba-4a2f-4653-95f4-d9911787986a" />
+<img width="1277" height="678" alt="Screenshot 2025-12-25 at 12 15 46 PM" src="https://github.com/user-attachments/assets/a33634be-d201-44f4-814a-8ce13a99e5e0" />
+<img width="1280" height="677" alt="Screenshot 2025-12-25 at 12 15 56 PM" src="https://github.com/user-attachments/assets/cd0d0665-3a57-4df9-ae3e-6c9aa6bec859" />
+
+
+
