@@ -5,11 +5,11 @@ const images = [
     "./images/img2.avif",
     "./images/img3.jpg",
     "./images/img4.avif",
-    "./images/img5.jpeg",
+    "./images/img5.jpg",
     "./images/img6.avif",
     "./images/img7.jpg",
     "./images/img8.avif",
-    "./images/img9.avif",
+    "./images/img9.jpg",
     "./images/img10.jpg",
     "./images/img11.jpg",
     "./images/img12.jpg",
@@ -46,4 +46,4 @@ setInterval(
     }
     // Update the image source
     img.src = images[index];
-},2000)
+},10000)
